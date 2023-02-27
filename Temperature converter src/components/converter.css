@@ -1,0 +1,24 @@
+input{
+    display: block;
+}
+#result{
+    font-size: large;
+    font-weight: bold;
+    display: block;
+}
+#type-converter{
+    display: block;
+}
+.container-outer{
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.container-middle {
+    display: table-cell;
+    vertical-align: middle;
+}

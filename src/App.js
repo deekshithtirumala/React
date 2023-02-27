@@ -1,17 +1,12 @@
 import './App.css';
-import Navigation from './components/navbar';
-import 'bootstrap/dist/css/bootstrap.css';
-import Main from './components/main';
-import Footer from './components/footer';
-
+import Navbar from './Components/NavBar/Navbar';
 function App() {
   return (
-    <div>
-      <Navigation />
-      <Main />
-      <hr className='hr' />
-      <Footer />
+
+    <div className='app'>
+      <Navbar />
     </div>
+    
   );
 }
 

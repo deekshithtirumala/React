@@ -1,0 +1,64 @@
+.academic-head h1{
+    text-align: center;
+   
+   }
+.education h1{
+    white-space: nowrap;
+    overflow: hidden;
+    color: black; 
+    animation: animtext1 5s steps(80, end); 
+    transition: all cubic-bezier(0.1, 0.7, 1.0, 0.1);
+    align-items: center;
+    font-family: "arial";
+    font-size: em;
+    width: 100%; 
+}
+@keyframes animtext1 { 
+    from {
+        width: 0;
+       transition: all 5s ease;
+    } 
+   }
+   .education .data{
+    white-space: nowrap;
+    overflow: hidden;
+    color: black; 
+    animation: animtext1 5s steps(1, end); 
+    align-items: center;
+    font-family: "arial";
+    font-size: em;
+    width: 100%; 
+}
+@keyframes animtext1 { 
+    from {
+        width: 0;
+       transition: all 7s ease;
+    } 
+   }
+
+.col-md-4{
+    text-align: center;
+}
+
+.academic-div{
+    margin: 10px;
+    padding: 5px 5px 2px 5px;
+}
+.education .card{
+    padding: 20px 10px 20px 10px;
+}
+.btech .card:hover{
+    background-image: url('https://collegefunda.com/uploads/Gallery/12-03-2020-AM-05-16-411727876989.jpg');
+    opacity: 0.8;
+    background-size: cover;
+}
+.inter .card:hover{
+    background-image: url('https://scontent.fvtz4-1.fna.fbcdn.net/v/t39.30808-6/300418554_576204247535104_6471762049972752395_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=sm2sspTX3dcAX9aU9hU&_nc_ht=scontent.fvtz4-1.fna&oh=00_AfBJ_b-76PqdaHYcatgv7wZMjizafmi6O3AAgnipRthjCQ&oe=64010A14');
+    opacity: 0.8;
+    background-size: cover;
+}
+.ssc .card:hover{
+    background-image: url('https://scontent.fvtz4-1.fna.fbcdn.net/v/t1.6435-9/166421812_2416922411785014_5388550151914220398_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=8631f5&_nc_ohc=8OD2qj24gD0AX94EA0Q&_nc_ht=scontent.fvtz4-1.fna&oh=00_AfAfaWFs4XTyRW3VeHYOR8YrXikjMcaEvUP-rWjod3HUyw&oe=6423C7C9');
+    opacity: 0.8;
+    background-size: cover;
+}

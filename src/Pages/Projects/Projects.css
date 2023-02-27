@@ -1,0 +1,73 @@
+
+.card{
+    width: auto;
+    height: 500px;
+    margin: 15px;
+    border-radius:10px ;
+    transition: 0.3s;
+    background-color: #e9e4e1 !important;
+    
+}
+.title{
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 20px  ;
+
+}
+.card:hover{
+    box-shadow: 0px 15px 15px;
+}
+.card-img{
+    background-color: #e9e4e1;
+    height: 300px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 8px;
+    box-shadow: 1px 5px 4px;
+    transition: 0.3s;
+    background-repeat: no-repeat;
+
+}
+.card-img:hover{
+    background-color: rgb(210, 212, 202);
+}
+.card-btn{
+    color:black;
+    background-color: #e9e4e1;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 1s;
+    font-size: 16px;
+    align-items:center;
+    box-shadow: 1px 2px 1px;
+    margin-left: 25%;
+}
+.card-btn:hover{
+    background-color: rgb(179, 179, 166);
+}
+.card-1{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg');
+}
+.card-2{
+    background-image: url('https://miro.medium.com/v2/resize:fit:640/format:webp/1*HuH-kx3AvmPsWe1UcxWaoQ.png');
+}
+.card-3{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/017/221/839/large_2x/telegram-logo-transparent-free-png.png');
+}
+.card-4{
+    background-image: url('https://cdn-learn.adafruit.com/guides/cropped_images/000/000/371/medium640/cc3000_small.jpg?1520541046');
+}
+.card-5{
+    background-image: url('https://content.instructables.com/F0K/6TH8/J48PVZOC/F0K6TH8J48PVZOC.jpg?auto=webp&frame=1&width=933&height=1024&fit=bounds&md=93647daca3134450a3e3f39cccbfd155')
+}
+.main-card1{
+    padding-left: 5px;
+    width: 250px;
+    margin: 15px;
+    border-radius:10px ;
+    transition: 0.1s;
+    background-color: aqua ;
+}
+.main-card1:hover{
+box-shadow: 0px 15px 15px;
+}
